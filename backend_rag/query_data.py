@@ -73,7 +73,7 @@ def query_rag(query_text: str):
     client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
 
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o",
         messages=[
             {"role": "system", "content": "You are a helpful assistant designed to provide accurate and informative answers to user questions."},
             {"role": "system", "content": "The user question may be based on a specific context window or be a general inquiry."},
