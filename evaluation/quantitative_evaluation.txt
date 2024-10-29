@@ -1,0 +1,55 @@
+Quantitative Evaluation ~ Original Configuration:
+-------------------------------------------------
+TRUE Count: 45
+FALSE Count: 5
+Total: 50
+Accuracy = 0.9
+-------------------------------------------------
+
+Quantitative Evaluation ~ Embedding Models:
+-------------------------------------------------
+'ada v2'
+------------------------
+TRUE Count: 41
+FALSE Count: 9
+Total: 50
+Accuracy = 0.82
+------------------------
+'Nomic Embed'
+------------------------
+TRUE Count: 37
+FALSE Count: 13
+Total: 50
+Accuracy = 0.74
+------------------------
+'text-embedding-3-small'
+------------------------
+TRUE Count: 42
+FALSE Count: 8
+Total: 50
+Accuracy = 0.84
+-------------------------------------------------
+
+Quantitative Evaluation ~ LLMs:
+-------------------------------------------------
+'GPT-4'
+------------------------
+TRUE Count: 43
+FALSE Count: 7
+Total: 50
+Accuracy = 0.86
+------------------------
+'Gemini 1.5 Pro'
+------------------------
+TRUE Count: 45
+FALSE Count: 5
+Total: 50
+Accuracy = 0.9
+------------------------
+'Claude 3 Opus'
+------------------------
+TRUE Count: 43
+FALSE Count: 7
+Total: 50
+Accuracy = 0.86
+-------------------------------------------------
